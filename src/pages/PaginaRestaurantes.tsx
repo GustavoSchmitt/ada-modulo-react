@@ -1,5 +1,5 @@
-import CaixaRestaurante from "../components/CaixaRestaurante";
-import restaurantes from "../data/restaurantsAndItems.json";
+import CaixaRestaurante from "../components/CaixaRestaurante/CaixaRestaurante";
+import recipes from "../data/newRestaurants.json";
 
 function PaginaRestaurantes() {
   return (
@@ -12,8 +12,8 @@ function PaginaRestaurantes() {
       />
       <label htmlFor="search">🔎</label>
       <ul className="grid" role="list">
-        {restaurantes.map((restaurante) => (
-          <CaixaRestaurante key={restaurante.slug} restaurante={restaurante} />
+        {recipes.recipes.map((recipe) => (
+          <CaixaRestaurante key={recipe.id} recipe={recipe} />
         ))}
       </ul>
     </section>

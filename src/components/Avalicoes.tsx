@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-function Avaliacoes(props) {
-  const avaliacao = props.avaliacao;
-  const [nota, definirNota] = useState();
+function Avaliacoes(props = {avaliacao:0}) {
+  const avaliacao = props?.avaliacao;
+  const [nota, definirNota] = useState(0);
 
   if (avaliacao) return <>⭐ {avaliacao}</>;
 
