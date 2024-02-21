@@ -1,4 +1,4 @@
-import PaginaCardapioRestaurante from "../pages/PaginaCardapioRestaurante";
+import PaginaCardapioRestaurante from "../pages/PaginaCardapioRestaurante/PaginaCardapioRestaurante";
 import PaginaRestaurantes from "../pages/PaginaRestaurantes";
 
 import { Route, Routes } from "react-router-dom";
