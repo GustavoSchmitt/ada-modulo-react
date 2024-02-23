@@ -40,6 +40,7 @@ export function PaginaRestaurantesSearch() {
   return (
     <section>
       <h1>Receitas</h1>
+      {inputPesquisa}
       <ul className="grid" role="list">
         {
           // mapeando receitas filtradas e passando todas as props
