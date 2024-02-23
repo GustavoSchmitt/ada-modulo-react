@@ -273,3 +273,21 @@ input {
 header .row a {
   font-size: 3rem;
 }
+/* Estilos básicos para o botão */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color:  var(--red-ifood);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilizando o hover do botão */
+button:hover {
+  background-color: #d11b1b
+}

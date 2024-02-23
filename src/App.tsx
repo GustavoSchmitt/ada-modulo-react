@@ -1,4 +1,4 @@
-import  "./App.scss";
+import "./App.scss";
 import Rotas from "./components/Rotas";
 
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ function App() {
           <div className="row">
             <Link to={"/"}>🏠</Link>
             <div className="shopping-cart">
-              carrinho de compras
+              Favoritos
               <span className="badge">0</span>
             </div>
           </div>
